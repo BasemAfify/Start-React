@@ -1,0 +1,17 @@
+.layer{
+    transition: all .3s;
+}
+
+.contain:hover .layer{
+    background-color: #1abc9cd5;
+    background-size: contain;
+    /* padding-right: 2.5%; */
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.pointer{
+    cursor: pointer;
+}
